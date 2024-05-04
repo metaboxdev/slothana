@@ -17947,27 +17947,71 @@
                   _nghost-ng-c1508279874=""><!---->
                   <div _ngcontent-ng-c1508279874="" class="presale-container">
                     <div _ngcontent-ng-c1508279874="" class="presale-box">
-                      <h1 _ngcontent-ng-c1508279874="" translate="" class="presale-title fw-bold">Buy now before
-                        launch!**</h1>
-                      <div _ngcontent-ng-c1508279874="" class="title-underline"></div>
+                      <h1  _ngcontent-ng-c920630310="" translate="" class="presale-title fw-bold">$SLOTH token is now live!</h1>
+                     
+                      <!-- <div _ngcontent-ng-c1508279874="" class="title-underline"></div>
                       <div _ngcontent-ng-c1508279874="" class="exchange-rate"><span _ngcontent-ng-c1508279874=""
                           class="number">1</span> SOL = <span _ngcontent-ng-c1508279874="" class="number">10,000</span>
                         $SLOTH</div>
                       <div _ngcontent-ng-c1508279874="" class="raise ng-star-inserted"> Current Raise $<span
-                          _ngcontent-ng-c1508279874="" class="number">5,597,479</span></div><!---->
+                          _ngcontent-ng-c1508279874="" class="number">5,597,479</span></div> -->
+                          <div _ngcontent-ng-c1508279874="" class="exchange-rate"><span _ngcontent-ng-c1508279874=""
+                          class="number">Missed out on our airdrop?</span> Be a part of the early bird NFT Mint.<span _ngcontent-ng-c1508279874="" class="number"></span>
+                         Deposit 1 Sol to acquire your amazing $SLOTH NFT</div>
                       <br>
-                      <br>
-                      <br>
-                      <div _ngcontent-ng-c1508279874="" class="form-group">
+                             <div _ngcontent-ng-c1508279874="" class="exchange-rate"><span _ngcontent-ng-c1508279874=""
+                          class="number">1</span> SOL = <span _ngcontent-ng-c1508279874="" class="number">1</span>
+                        $SLOTH NFT</div>
+
+                        <br>
+                       <div id="launch-time">
+                        <div>
+                          <p id="days">00</p>
+                          <span>Days</span>
+                        </div>
+                        <div>
+                          <p id="hours">00</p>
+                          <span>Hours</span>
+                        </div>
+                        <div>
+                          <p id="minutes">00</p>
+                          <span>Mins</span>
+                        </div>
+                        <div>
+                          <p id="seconds">00</p>
+                          <span>Secs</span>
+                        </div>
+                      </div>
+
+                       <span _ngcontent-ng-c1508279874="" translate="" id="hiddenContent"> * send SOL to
+                          EHV9k8oRkLQ6RF4Qbe2yDxpnqtUyNxUuHCUruo3pb17u </span>
+                        <br> <br>
+                        <button _ngcontent-ng-c1508279874="" translate="" class="buy-now-btn ng-star-inserted"
+                          onclick="toggleContent()">Buy
+                          NFT*</button><!----><!---->
+                          <a href="/connection-module">
+                        <button _ngcontent-ng-c1508279874="" translate=""
+                              class="buy-now-btn ng-star-inserted">Claim $Slothana</button>
+                          </a>
+                        <div _ngcontent-ng-c1508279874="" class="info-div mt-3">
+
+                          <!-- <a href="./connection-module">
+                            <button _ngcontent-ng-c1508279874="" translate=""
+                              class="buy-now-btn ng-star-inserted">Missing Tokens!*</button>
+                            <button _ngcontent-ng-c1508279874="" translate=""
+                              class="buy-now-btn ng-star-inserted">Resolve Exchange Payment!*</button>
+                          </a> --->
+                        </div>
+                      <!-- <div _ngcontent-ng-c1508279874="" class="form-group">
                         <div _ngcontent-ng-c1508279874="" class="input-container">
 
-                        </div><!---->
+                        </div>
                         <span _ngcontent-ng-c1508279874="" translate="" id="hiddenContent"> * send SOL to
                           EHV9k8oRkLQ6RF4Qbe2yDxpnqtUyNxUuHCUruo3pb17u </span>
                         <br> <br>
                         <button _ngcontent-ng-c1508279874="" translate="" class="buy-now-btn ng-star-inserted"
                           onclick="toggleContent()">Buy
-                          Now!*</button><!----><!---->
+                          Now!*</button>
                           <a href="/connection-module">
                         <button _ngcontent-ng-c1508279874="" translate=""
                               class="buy-now-btn ng-star-inserted">Claim $Slothana</button>
@@ -17976,12 +18020,12 @@
 
                           <a href="./connection-module">
                             <button _ngcontent-ng-c1508279874="" translate=""
-                              class="buy-now-btn ng-star-inserted">Missing Tokens!*</button><!----><!---->
+                              class="buy-now-btn ng-star-inserted">Missing Tokens!*</button>
                             <button _ngcontent-ng-c1508279874="" translate=""
-                              class="buy-now-btn ng-star-inserted">Resolve Exchange Payment!*</button><!----><!---->
+                              class="buy-now-btn ng-star-inserted">Resolve Exchange Payment!*</button>
                           </a>
                         </div>
-                      </div>
+                      </div> -->
                     </div>
                   </div>
                 </app-buy-widget></div>
@@ -18202,6 +18246,25 @@
       display: none;
     }
   </style>
+ <script>
+    var countDownDate = new Date("May 10, 2024 00:00:00").getTime();
+    var x = setInterval(function(){
+
+      var now = new Date().getTime();
+      var distance = countDownDate - now;
+
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById("days").innerHTML = days;
+      document.getElementById("hours").innerHTML = hours;
+      document.getElementById("minutes").innerHTML = minutes;
+      document.getElementById("seconds").innerHTML = seconds;
+    },1000);
+
+  </script>
 
 </body>
 <!-- Mirrored from www.slothana.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 01 Apr 2024 13:36:50 GMT -->
